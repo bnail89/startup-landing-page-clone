@@ -43,3 +43,54 @@ div {
     cursor: pointer;
     color: #333333;
 }
+/* Introduction Section */
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+.content {
+	padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+.introduction h1 {
+	font-family: 'Roboto', sans-serif;
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h3 {
+	font-family: 'Roboto', sans-serif;
+	margin-top: 1.25rem;
+    font-size: 1.563rem;
+	color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction .buttons {
+    color: white;
+    text-align: center;
+    margin-top: 1.563rem;
+}
+button {
+	font-family: 'Roboto', sans-serif;
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+.introduction .buttons button:hover {
+	cursor: pointer;
+	background-color: #d85124;
+}
